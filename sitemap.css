@@ -5,3 +5,28 @@ Author: Beckham Le
 Date: 10/15/19
 
 */
+html{
+    background: url(mario_homepage_background.jpg);
+}
+body{
+    margin: 0px auto;
+    width:100%;
+    min-width: 920px;
+    max-width: 1300px;
+    box-shadow: 10px 10px 20px rgb(51,51,51),
+               -10px -10px 20px rgb(51,51,51);
+}
+body::after{
+    clear: both;
+    content: "";
+    display: table;
+ }
+h1{
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+ }
+ header img{
+     min-width: 200px;
+     max-width: 250px;
+ }
