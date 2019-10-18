@@ -1,9 +1,9 @@
 @charset "utf-8";
 /*
+ Author: Project by: Joel Mendivil, Beckam Le,
+    Audrey Sparks, and Ariahnnah Porras
 
-Author: Beckham Le
-Date: 10/15/19
-
+    Date: 10/17/19
 */
 html{
     background: url(mario_homepage_background.jpg);
@@ -39,7 +39,6 @@ h1{
     font-size: 3.5em;
     margin:0px;
  }
-
  div[class^="col-1-5"]{
     width: 20%;
     float: left;
