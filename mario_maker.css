@@ -34,7 +34,7 @@ body{
     margin-right: auto;
 }
 div.gametitle{
-    background: rgb(121, 137, 230);
+    background: url(brick.jpg) scroll;
     height: 175px;
 }
 img#star1{
@@ -44,7 +44,7 @@ img#star2{
     transform: translate(650px, -125px)
 }
 div.firstrow{
-    background-color:rgb(121, 137, 230);
+    background: url(brick.jpg) scroll;
     background-position: 100px 150px;
 }
 body>div.whiterow>img{
