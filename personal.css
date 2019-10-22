@@ -93,6 +93,5 @@ div[class^="col-1-5"]{
  nav.row a:active {
     color: black;
     background-color: yellow;
-
+ }
 /*Creates the nav bar in the Header making it red bg and yellow bg when hovered and making it the Mario Font*/
-
