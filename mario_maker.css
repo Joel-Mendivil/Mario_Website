@@ -88,15 +88,15 @@ div.col-1-2>p{
 div.col-1-2>p a:link, div.col-1-2>p a:visited{
     font-family: Mario Font;
     text-decoration: none;
-    background-color: lightgreen;
-    color: red;
+    background-color: rgb(255, 196, 0);
+    color: black;
     text-align: center;
 }
 div.col-1-2>p a:hover, div.col-1-2>p a:active{
     font-family: Mario Font;
     text-decoration: none;
-    background-color: lightgreen;
-    color: blue;
+    background-color: rgb(255, 196, 0);
+    color: black;
     text-align: center;
 }
 div.col-1-5{width:20%}
