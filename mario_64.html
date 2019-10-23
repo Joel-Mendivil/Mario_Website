@@ -33,9 +33,15 @@
         </header>
     </div>
     <div class="gametitle">
-        <center><img src="mario_64_title.png" width=400px height=150px></center>
-        <img src="mario64star.gif" id="star1" width=100px height=100px>
-        <img src="mario64star.gif" id="star2" width=100px height=100px>
+        <div class="col-1-4">
+            <center><img src="mario64star.gif" id="star1" width=100px height=100px></center>
+        </div>
+        <div class="col-1-2">
+            <center><img src="mario_64_title.png" width=400px height=150px></center>
+        </div>
+        <div class="col-1-4">
+            <center><img src="mario64star.gif" id="star2" width=100px height=100px></center>
+        </div>
     </div>
     <div class="firstrow">
         <section id="leftColumn">
@@ -67,15 +73,16 @@
                 <div class="row" id="gameplay">
                     <center><img src="mario_64_gameplay.gif" width=400px height=250px></center>
                 </div>
-                <div class="row" id="previous">
-                    <p><a href="mario_first.html" id="previous">Previous Game</a></p>
-                </div>
-                <div class="row" id="next">
-                    <p><a href="mario_sunshine.html" id="next">Next Game</a></p>
-                </div>
             </div>
         </section>
-        
+        <div class="row">
+            <div class="col-1-2">
+                <p><a href="mario_first.html">Previous Game</a></p>
+            </div>
+            <div class="col-1-2">
+                <p><a href="mario_sunshine.html">Next Game</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
