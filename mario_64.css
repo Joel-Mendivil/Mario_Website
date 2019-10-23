@@ -43,7 +43,7 @@ img#star2{
     transform: translateY(30px);
 }
 div.firstrow{
-    background: url(mario_64_bodybackground.jpg) fixed;
+    background: url(mario_64_bodybackground.jpg) scroll;
     background-position: 100px 150px;
 }
 body>div.whiterow>img{
